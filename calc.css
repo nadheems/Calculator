@@ -8,32 +8,38 @@ body {
     height: 100vh;
     background-color: #211f1f;
 }
+
 .calculator {
-    background-color: #413f3f;
-    border-radius: 8px;
+    background-color: lightgrey; /* Changed background color to light grey */
     padding: 20px;
-    box-shadow: 5px 10px 20px rgba(250, 2, 2, 0.964);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow color */
+    border-radius: 15px; /* Rounded corners */
+    border: 2px solid black; /* Added border with black color */
 }
+
 .calculator input[type="button"] {
     width: 60px;
     height: 60px;
     font-size: 18px;
     margin: 5px;
-    border: none;
+    border: 2px solid black; /* Added border with black color */
     outline: none;
     cursor: pointer;
     background-color: #f0f0f0;
     border-radius: 30px;
     box-shadow: 5px 10px 20px rgba(241, 238, 238, 0.964);
+    color: black; /* Changed text color to black */
 }
+
 .calculator input[type="text"] {
     width: 280px;
     height: 50px;
     font-size: 24px;
     text-align: right;
     margin-bottom: 10px;
-    border: none;
+    border: 2px solid black; /* Added border with black color */
     outline: none;
     padding: 5px;
     border-radius: 30px;
+    background-color: #f0f0f0; /* Background color for text box */
 }
