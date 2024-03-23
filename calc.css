@@ -10,24 +10,25 @@ body {
 }
 
 .calculator {
-    background-color: lightgrey;
+    background-color: lightgrey; /* Changed background color to light grey */
     padding: 20px;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 15px; 
-    border: 2px solid black;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow color */
+    border-radius: 15px; /* Rounded corners */
+    border: 2px solid black; /* Added border with black color */
+}
 
 .calculator input[type="button"] {
     width: 60px;
     height: 60px;
     font-size: 18px;
     margin: 5px;
-    border: 2px solid black;
+    border: 2px solid black; /* Added border with black color */
     outline: none;
     cursor: pointer;
     background-color: #f0f0f0;
     border-radius: 30px;
     box-shadow: 5px 10px 20px rgba(241, 238, 238, 0.964);
-    color: black; 
+    color: black; /* Changed text color to black */
 }
 
 .calculator input[type="text"] {
@@ -36,9 +37,9 @@ body {
     font-size: 24px;
     text-align: right;
     margin-bottom: 10px;
-    border: 2px solid black; 
+    border: 2px solid black; /* Added border with black color */
     outline: none;
     padding: 5px;
     border-radius: 30px;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0; /* Background color for text box */
 }
